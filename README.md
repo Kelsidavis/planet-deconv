@@ -99,10 +99,14 @@ generalization test; harder).
 
 ### Run on a fresh capture
 
+A pretrained checkpoint is included at `runs/best/best.pt` (TinyUNet, burst-5,
+trained 60 epochs on 16 captures with scale aug 0.5–2.0×). Loss / PSNR curves
+and val triptychs are in `runs/best/curves.png` and `runs/best/previews/`.
+
 ```bash
 python infer.py \
     --video /path/to/capture.ser \
-    --ckpt ./runs/exp_001/best.pt \
+    --ckpt ./runs/best/best.pt \
     --out ./out \
     --stack /path/to/stack.tif    # optional, for triptych comparison
 ```

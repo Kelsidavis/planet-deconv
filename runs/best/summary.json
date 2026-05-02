@@ -1,0 +1,9 @@
+{
+  "val_captures": [],
+  "n_train": 16821,
+  "n_val": 1869,
+  "baseline_masked_psnr": 16.016377737206238,
+  "baseline_full_psnr": 18.1830811658905,
+  "best_masked_psnr": 41.046571565195265,
+  "gain_db": 25.030193827989027
+}

@@ -1,5 +1,6 @@
 # Training outputs and large artifacts
-runs/
+runs/*
+!runs/best/
 inference_test_*/
 inspect_out_*/
 pairs/
