@@ -1,0 +1,27 @@
+# Training outputs and large artifacts
+runs/
+inference_test_*/
+inspect_out_*/
+pairs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Locks (not vendored)
+uv.lock
+poetry.lock
